@@ -48,53 +48,35 @@ emails.forEach(email => {
 });
 console.log(logins);
 
+const allLogins = logins.join('');
+console.log(allLogins);
 
-const letters = logins.map(login => login.split(''));
-console.log(letters);
+const allLetters = allLogins.split('');
+console.log(allLetters);
 
-const amountLetters = [];
-letters.forEach(arr => {
-    const al = [];
-    arr.forEach(lett=>{
-        if(arr.indexOf(lett) != -1 && al.some(el => el===lett)==0){
-            al.push(lett);
-        }
-    })
-    amountLetters.push(al);
-})
-
-// const operators = [];
-// emails.forEach(email => {
-//     let operator = email.split('@')[1];
-//     if(email.indexOf(operator) != -1 && operators.some(el => el===operator)==0){
-//         operators.push(operator);
-//     }
-
-// });
-var c = 0;var count;
-console.log(amountLetters);
-amountLetters.forEach(arr => {
-    arr.forEach(lett => {
-    
-    letters.forEach(ar => {
-        count = 0;
-        ar.forEach(el => {
-
-        if(el == lett){
-            count++;
-        }
+const letters = [];
+allLetters.forEach(letter => {
+    if(letter.indexOf(letter) != -1 && letters.some(el => el===letter)==0){
+        letters.push(letter);
     }
-    )})
-    console.log(`${count} letters "${lett}" in ${logins[c]} `);
-})
-c++;
-})
+});
 
-// const l = amountLetters.map(op => {
-//     op.map(el=>{
-//     return{
-//         name: el,
-//         amount: op.reduce((p, c) => c.indexOf(el) != -1 ? p+1 : p, 0)
-//     };
-// }).sort((a, b) => a.amount - b.amount)});
-// console.log(l);
+const letts = [];
+console.log(letters);
+var count;
+letters.forEach(letter => {
+    count = 0;
+     allLetters.forEach(el => {
+         if(el == letter){
+             count++
+         }
+})
+let ob={
+    name: letter,
+    amount: count
+}
+letts.push(ob);
+})
+console.log(letts);
+const amountLetters = letts.sort((a, b) => a.amount - b.amount);
+console.log(amountLetters);
