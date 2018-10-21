@@ -1,0 +1,13 @@
+#hours, #minutes, #seconds {
+    font-weight: bold; 
+    color: rgb(56, 17, 17);
+}
+fieldset {
+    max-width: 50%;
+    max-height: 25%;
+    margin: auto;
+    margin-top: 245px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 35px;
+}

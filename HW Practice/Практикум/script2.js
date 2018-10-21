@@ -1,4 +1,4 @@
-const csv = `Россия, Russiaaaaaa, russian, 170000000, 20000000, Moscow, +3, 20000
+const csv = `Россия, Russia, russian, 170000000, 20000000, Moscow, +3, 20000
 Аргентина, Argentina, 	spanish, 43000000, 2000000, Buenos Aires, -3, 3434
 Польша, Poland, polish, 10000000, 400000, Warsaw, +2, 5000
 Германия, Germany, deutsch, 20000000, 5000000, Berlin, +2, 100000`
@@ -22,9 +22,8 @@ function Mid(arr) {
 
 const arrCsv = csv.split('\n')
                   .map(el => el.trim())
-// console.log(arrCsv);
 
-const arr = arrCsv.map(el => el.split(', '))
+const arr = arrCsv.map(el => el.split(','))
                   .map(el => {
                     return {
                       nameRus: el[0],
@@ -41,10 +40,10 @@ console.log(arr);
 
 const populationDensity = [];
 arr.forEach(el => {
-  let popDen = Math.floor(el.populatuon / el.area);
+  let popDen = Math.round(el.populatuon / el.area);
   populationDensity.push(popDen);
 })
-// console.log(populationDensity);
+
 
 const maxMinpopulationDensity = populationDensity.sort((a, b) => a - b);
 console.log(`Max population density - ${maxMinpopulationDensity[maxMinpopulationDensity.length - 1]}
@@ -55,7 +54,7 @@ arr.forEach(el => {
   let gdp = el.income * el.populatuon;
   GDP.push(gdp);
 })
-// console.log(GDP);
+
 
 const maxMinGDP = GDP.sort((a, b) => a - b);
 console.log(`Max population density - ${maxMinGDP[maxMinGDP.length - 1]}
@@ -65,8 +64,7 @@ const income = [];
 arr.forEach(el => {
   income.push(Number(el.income));
 })
-// console.log(income);
-// console.log(Mid(income));
+
 
 const minDeviation = income.map(el => Math.abs(Mid(income) - el))
                            .sort((a, b) => a - b);
@@ -86,7 +84,7 @@ arr.forEach(el => {
     languages.push(el.language);
   }
 });
-// console.log(languages);
+
 
 const languagesObj = languages.map(language => {
   let countries = [];
@@ -113,7 +111,6 @@ console.log(time);
 
 const timeInCity = time.forEach(el => {
   let offset = Number(el.timezone);
-  // console.log(offset);
   const calcTime = (city, offset) => {
     let locDate = new Date();
     let utc = locDate.getTime() + (locDate.getTimezoneOffset() * 60000);

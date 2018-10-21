@@ -1,4 +1,5 @@
-const str = "mr.wital1999@gmail.com, vital1999m@mail.ru, +375298250595,   qwerty@mail.ru, Vitaly, iooplk@yandex.com";
+const str = "mr.wital1999@gmail.com, vital1999m@mail.ru, +375298250595,   qwerty@mail.ru, Vitaly, iooplk@yandex.com, qwe.com";
+console.log(str)
 const expr = /^[-._a-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$/;
 const emails = str.split(', ')
                .map(el => el.trim())
