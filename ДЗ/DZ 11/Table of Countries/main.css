@@ -1,0 +1,16 @@
+td {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}
+.color1 {
+  background-color: rgb(214, 209, 209);
+}
+.color2 {
+  background-color: rgb(165, 182, 175);
+}
+table {
+  margin: 40px auto 0;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+}

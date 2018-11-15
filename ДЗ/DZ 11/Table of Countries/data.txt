@@ -1,0 +1,4 @@
+Россия, Russia, russian, 170000000, 20000000, Moscow, +3, 20000
+Аргентина, Argentina, spanish, 43000000, 2000000, Buenos Aires, -3, 3434
+Польша, Poland, polish, 10000000, 400000, Warsaw, +2, 5000
+Германия, Germany, deutsch, 20000000, 5000000, Berlin, +2, 100000
