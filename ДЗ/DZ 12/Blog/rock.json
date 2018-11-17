@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Linkin Park",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "linkin.jpg",
+        "path": "linkin.json"
+    },
+    {
+        "title": "Limp Bizkit",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "bizkit.jpg",
+        "path": "bizkit.json"
+    },
+    {
+        "title": "Queen",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "queen.png",
+        "path": "queen.json"
+    }
+]
+
+
+

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Borscht",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "borscht.jpg",
+        "path": "borscht.json"
+    },
+    {
+        "title": "Dumplings",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "dumplings.jpg",
+        "path": "dumplings.json"
+    },
+    {
+        "title": "Potatoes with herring",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "potatoes.jpg",
+        "path": "potatoes.json"
+    }
+]

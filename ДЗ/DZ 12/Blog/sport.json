@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Team sport",
+        "path": "team.json"
+    },
+    {
+        "title": "Single sport",
+        "path": "single.json"
+    },
+    {
+        "title": "Both types",
+        "path": "both.json"
+    }
+]

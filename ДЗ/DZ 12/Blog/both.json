@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Tennis",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "tennis.jpg",
+        "path": "tennis.json"
+    },
+    {
+        "title": "Swimming",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "swimming.jpg",
+        "path": "swimming.json"
+    },
+    {
+        "title": "Biathlon",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "biathlon.jpg",
+        "path": "biathlon.json"
+    }
+]

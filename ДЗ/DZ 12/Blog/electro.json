@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Calvin Harris",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "calvin.jpg",
+        "path": "calvin.json"
+    },
+    {
+        "title": "Alan Walker",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "alan.jpg",
+        "path": "alan.json"
+    },
+    {
+        "title": "David Guetta",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "david.jpg",
+        "path": "david.json"
+    }
+]
+
+
+

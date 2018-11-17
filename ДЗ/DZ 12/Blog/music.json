@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Rock",
+        "path": "rock.json"
+    },
+    {
+        "title": "Rap",
+        "path": "rap.json"
+    },
+    {
+        "title": "Electro music",
+        "path": "electro.json"
+    }
+]

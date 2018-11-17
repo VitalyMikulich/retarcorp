@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Pizza",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "pizza.jpg",
+        "path": "pizza.json"
+    },
+    {
+        "title": "Pasta",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "pasta.jpg",
+        "path": "pasta.json"
+    },
+    {
+        "title": "Buritto",
+        "shortContent": "Penatibus a metus habitasse sociosqu conubia tellus a fermentum aenean eleifend dui consectetur dictum dapibus nulla aenean convallis fusce adipiscing ridiculus nisi potenti mi. Molestie vestibulum volutpat mattis eget quam consequat...",
+        "img": "buritto.jpg",
+        "path": "buritto.json"
+    }
+]

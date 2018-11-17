@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Eminem",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "eminem.jpg",
+        "path": "eminem.json"
+    },
+    {
+        "title": "XXXTentacion",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "xxxtentacion.jpg",
+        "path": "xxxtentacion.json"
+    },
+    {
+        "title": "Markul",
+        "shortContent": "Fames ridiculus ut et et lacinia ac ad at magnis sed placerat a a a lobortis ac sit.",
+        "img": "markul.jpg",
+        "path": "markul.json"
+    }
+]
+

@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Italic kitchen",
+        "path": "italic.json"
+    },
+    {
+        "title": "Russian kitchen",
+        "path": "russian.json"
+    },
+    {
+        "title": "Englang kitchen",
+        "path": "england.json"
+    }
+]

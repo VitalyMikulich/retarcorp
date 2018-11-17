@@ -1,0 +1,18 @@
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+  
+td {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    background-color: rgb(41, 204, 19);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}

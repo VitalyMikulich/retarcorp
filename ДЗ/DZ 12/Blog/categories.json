@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Sport",
+        "path": "sport.json"
+    },
+    {
+        "title": "Music",
+        "path": "music.json"
+    },
+    {
+        "title": "Food",
+        "path": "food.json"
+    }
+]
