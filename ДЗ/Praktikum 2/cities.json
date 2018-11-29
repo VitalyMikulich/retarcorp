@@ -1,0 +1,14 @@
+[
+    {
+        "img": "moscow.jpg",
+        "description": "Moscow, Russia"
+    },
+    {
+        "img": "new-york.jpg",
+        "description": "New York, USA"
+    },
+    {
+        "img": "dubai.jpg",
+        "description": "Dubai, Saudi Arabia"
+    }
+]

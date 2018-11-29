@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Barcelona",
+        "img": "barcelonaLogo.png",
+        "path": "barcelona.json"
+    },
+    {
+        "title": "Mercedes-Benz",
+        "img": "mercedesLogo.png",
+        "path": "mercedes.json"
+    },
+    {
+        "title": "Cities",
+        "img": "cities.png",
+        "path": "cities.json"
+    }
+]
